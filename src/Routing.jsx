@@ -22,7 +22,8 @@ const Routing = () => {
                 <Route path='register' element={<Register/>}/>
                 <Route path='cart' element={<Cart/>}/>
                 <Route path='product/details' element={<ProductDetails/>}/>
-
+                <Route path='Login' element={<Login/>}/>
+                <Route path='Register' element={<Register/>}/>
             </Route>
             <Route path='login' element={<Login/>}/>
         </Route>
