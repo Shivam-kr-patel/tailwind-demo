@@ -5,7 +5,7 @@ import { HiBars3, HiXMark } from 'react-icons/hi2'
 import { HiBell, HiSearch } from 'react-icons/hi'
 import { FaShoppingCart } from 'react-icons/fa'
 import Avatar from '/src/assets/avatar.png'
-
+import Logo from '/src/assets/Logo.png'
 const Header = () => {
   const navigation = [
     { name: 'Home', href: '/', current: true },
@@ -18,7 +18,7 @@ const Header = () => {
   }
   return (
     <>
-    <Disclosure as="nav" className="bg-gray-800">
+    <Disclosure as="nav" className="bg-black">
       <div className="mx-auto max-w-7xl px-2 ">
         <div className="relative flex h-16 items-center justify-between">
           <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -32,7 +32,7 @@ const Header = () => {
           </div>
           <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
             <div className="flex shrink-0 items-center">
-              <span className='h-8 text-white'>my-pro</span>
+              <span className='text-white w-25'><img src={Logo}></img></span>
             </div>
            
             <div className="hidden sm:ml-6 sm:block">
